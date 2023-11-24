@@ -37,6 +37,15 @@ html_form = """
         }
     </style>
 </head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-TYZNT8XY8S"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-TYZNT8XY8S');
+</script>
 <body>
     <h1>実質１０００円カットジェネレーター</h1>
     <form method="post" action="/calculate">
